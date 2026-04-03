@@ -1,0 +1,10 @@
+char = input("Enter a single character: ")
+# Checking the type of character
+if char.isalpha():
+    print(f"'{char}' is an Alphabet.")
+elif char.isdigit():
+    print(f"'{char}' is a Digit.")
+elif len(char) == 1:
+    print(f"'{char}' is a Special Character.")
+else:
+    print("Please enter only one character at a time.")
